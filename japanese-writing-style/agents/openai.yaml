@@ -1,0 +1,4 @@
+interface:
+  display_name: "Japanese Writing Style"
+  short_description: "Write and edit clear, natural Japanese prose"
+  default_prompt: "Use $japanese-writing-style to edit this Japanese text for clarity, accuracy, and natural flow."
