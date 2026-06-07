@@ -1,36 +1,35 @@
 # Skills
 
-Reusable skills for AI coding agents.
+日本語 | [English](README.en.md)
 
-## Available skill
+AI コーディングエージェント向けの再利用可能な skill を公開するリポジトリです。
 
-| Skill | Purpose |
+## 公開中の skill
+
+| Skill | 用途 |
 | --- | --- |
-| [`japanese-writing-style`](japanese-writing-style/SKILL.md) | Write and edit clear, natural Japanese prose while preserving meaning and source material. |
+| [`japanese-writing-style`](japanese-writing-style/SKILL.md) | 元の意味や引用を保ちながら、自然で読みやすい日本語の文章を作成、添削します。 |
 
-## Installation
+## インストール
 
-Clone or download this repository, then copy the skill directory into the
-skills directory used by your agent.
+このリポジトリをクローンまたはダウンロードし、使いたい skill のディレクトリをエージェントの skill ディレクトリへコピーします。
 
-For Codex:
+Codex:
 
 ```bash
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
 cp -R japanese-writing-style "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
 
-For Claude Code:
+Claude Code:
 
 ```bash
 mkdir -p "$HOME/.claude/skills"
 cp -R japanese-writing-style "$HOME/.claude/skills/"
 ```
 
-You can invoke the skill explicitly with `$japanese-writing-style`. Agents that
-support implicit skill discovery can also select it when creating or editing
-Japanese prose.
+`$japanese-writing-style` と指定すると、skill を明示的に呼び出せます。skill の自動選択に対応するエージェントでは、日本語の文章を作成、添削するときに自動で選択される場合があります。
 
-## License
+## ライセンス
 
-The repository is available under the [MIT License](LICENSE).
+このリポジトリは [MIT License](LICENSE) のもとで公開しています。
