@@ -12,20 +12,10 @@ This repository provides reusable skills for AI coding agents.
 
 ## Installation
 
-Clone or download this repository, then copy the skill directory you want to use into your agent's skill directory.
+Ask Codex or Claude Code to install the skill from [hoshimiyacelica/skills](https://github.com/hoshimiyacelica/skills).
 
-Codex:
-
-```bash
-mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
-cp -R japanese-writing-style "${CODEX_HOME:-$HOME/.codex}/skills/"
-```
-
-Claude Code:
-
-```bash
-mkdir -p "$HOME/.claude/skills"
-cp -R japanese-writing-style "$HOME/.claude/skills/"
+```text
+Install japanese-writing-style from the hoshimiyacelica/skills repository on GitHub.
 ```
 
 Invoke the skill explicitly with `$japanese-writing-style`. Agents that support automatic skill selection may also select it when creating or editing Japanese prose.

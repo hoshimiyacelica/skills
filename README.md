@@ -12,20 +12,10 @@
 
 ## インストール方法
 
-このリポジトリをクローンまたはダウンロードしたあと、利用するスキルのディレクトリを、使用するエージェントのスキルディレクトリへコピーしてください。
+Codex または Claude Code に、[hoshimiyacelica/skills](https://github.com/hoshimiyacelica/skills) からスキルをインストールするよう依頼してください。
 
-### Codex
-
-```bash
-mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
-cp -R japanese-writing-style "${CODEX_HOME:-$HOME/.codex}/skills/"
-```
-
-### Claude Code
-
-```bash
-mkdir -p "$HOME/.claude/skills"
-cp -R japanese-writing-style "$HOME/.claude/skills/"
+```text
+GitHub の hoshimiyacelica/skills から japanese-writing-style をインストールしてください。
 ```
 
 スキルを明示的に利用する場合は、プロンプトの中で `$japanese-writing-style` と指定してください。スキルの自動選択に対応しているエージェントでは、日本語の文章を作成したり、添削したりするときに、このスキルが自動で選択される場合があります。
