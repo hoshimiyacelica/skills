@@ -2,7 +2,7 @@
 
 [日本語](README.md) | English
 
-This repository provides reusable skills for AI coding agents. It currently includes skills for Japanese prose and Japanese/Taiwan Mandarin translation. Condensed Claude Fable 5 versions are collected in the [`fable/`](fable/) folder.
+This repository provides reusable skills for AI coding agents. It currently includes skills for Japanese prose and Japanese/Taiwan Mandarin translation.
 
 ## Available skills
 
