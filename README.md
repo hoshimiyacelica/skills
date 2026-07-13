@@ -9,9 +9,9 @@
 | スキル | 用途 |
 | --- | --- |
 | [`japanese-writing-style`](japanese-writing-style/SKILL.md) | 元の意味や引用部分の表記を保ちながら、自然で読みやすい日本語の文章を作成したり、添削したりするためのスキルです。 |
-| [`japanese-writing-style-fable`](fable/japanese-writing-style-fable/SKILL.md) | Claude Fable 5 向けに要点を圧縮した、日本語の文章作成と添削のためのスキルです。 |
+| [`japanese-writing-style-fable`](fable/japanese-writing-style-fable/SKILL.md) | 要点を簡潔にまとめた、日本語の文章作成と添削のためのスキルです。 |
 | [`ja-zhtw-translation`](ja-zhtw-translation/SKILL.md) | 日本語と台湾華語を、チャットや SNS の文脈とニュアンスに合わせて双方向に翻訳するためのスキルです。 |
-| [`ja-zhtw-translation-fable`](fable/ja-zhtw-translation-fable/SKILL.md) | Claude Fable 5 向けに要点を圧縮した、日本語と台湾華語の翻訳のためのスキルです。 |
+| [`ja-zhtw-translation-fable`](fable/ja-zhtw-translation-fable/SKILL.md) | 要点を簡潔にまとめた、日本語と台湾華語の翻訳のためのスキルです。 |
 
 ## インストール方法
 
