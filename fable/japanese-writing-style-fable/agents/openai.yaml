@@ -1,4 +1,0 @@
-interface:
-  display_name: "Japanese Writing Style (Fable)"
-  short_description: "Write and edit clear, natural Japanese prose"
-  default_prompt: "Use $japanese-writing-style-fable to edit this Japanese text for clarity, accuracy, and natural flow."

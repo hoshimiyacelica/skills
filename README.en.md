@@ -11,8 +11,6 @@ This repository provides reusable skills for AI coding agents. It currently incl
 | [`japanese-writing-style`](japanese-writing-style/SKILL.md) | Write and edit clear, natural Japanese prose while preserving meaning and quoted material. |
 | [`ja-zhtw-translation`](ja-zhtw-translation/SKILL.md) | Translate between Japanese and Taiwan Mandarin with attention to chat, social media context, and nuance. |
 
-Fable versions are also available for each skill.
-
 ## Installation
 
 Ask Codex or Claude Code to install the skills you want from [hoshimiyacelica/skills](https://github.com/hoshimiyacelica/skills).
