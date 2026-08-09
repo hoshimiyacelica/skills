@@ -11,8 +11,6 @@
 | [`japanese-writing-style`](japanese-writing-style/SKILL.md) | 元の意味や引用部分の表記を保ちながら、自然で読みやすい日本語の文章を作成したり、添削したりするためのスキルです。 |
 | [`ja-zhtw-translation`](ja-zhtw-translation/SKILL.md) | 日本語と台湾華語を、チャットや SNS の文脈とニュアンスに合わせて双方向に翻訳するためのスキルです。 |
 
-各スキルには Fable 版もあります。
-
 ## インストール方法
 
 Codex または Claude Code に、[hoshimiyacelica/skills](https://github.com/hoshimiyacelica/skills) から使いたいスキルをインストールするよう依頼してください。
