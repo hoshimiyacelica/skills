@@ -13,7 +13,20 @@
 
 ## インストール方法
 
-Codex または Claude Code に、[hoshimiyacelica/skills](https://github.com/hoshimiyacelica/skills) から使いたいスキルをインストールするよう依頼してください。
+### Claude Code のプラグインとして入れる
+
+このリポジトリはプラグインマーケットプレイスを兼ねています。Claude Code で次を実行すると、両方のスキルがまとめて入ります。
+
+```text
+/plugin marketplace add hoshimiyacelica/skills
+/plugin install ja-skills@hoshimiyacelica-skills
+```
+
+インストール後の要約に `Run /reload-plugins to activate.` と出たときは、そのコマンドも実行してください。更新は `/plugin marketplace update hoshimiyacelica-skills` で取り込めます。
+
+### エージェントに依頼して入れる
+
+Codex など、プラグインに対応していないエージェントには、次のように依頼してください。
 
 ```text
 GitHub の hoshimiyacelica/skills から japanese-writing-style と ja-zhtw-translation をインストールしてください。

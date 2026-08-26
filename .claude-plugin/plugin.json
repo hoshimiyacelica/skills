@@ -1,0 +1,13 @@
+{
+  "name": "ja-skills",
+  "description": "日本語の文章を作成したり添削したりするスキルと、日本語と台湾華語を双方向に翻訳するスキルをまとめたものです。",
+  "version": "1.0.0",
+  "author": {
+    "name": "hoshimiyacelica",
+    "url": "https://github.com/hoshimiyacelica"
+  },
+  "homepage": "https://github.com/hoshimiyacelica/skills",
+  "repository": "https://github.com/hoshimiyacelica/skills",
+  "license": "MIT",
+  "skills": ["./japanese-writing-style", "./ja-zhtw-translation"]
+}

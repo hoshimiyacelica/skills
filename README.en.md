@@ -13,7 +13,20 @@ This repository provides reusable skills for AI coding agents. It currently incl
 
 ## Installation
 
-Ask Codex or Claude Code to install the skills you want from [hoshimiyacelica/skills](https://github.com/hoshimiyacelica/skills).
+### As a Claude Code plugin
+
+This repository doubles as a plugin marketplace. Run the following in Claude Code to install both skills at once.
+
+```text
+/plugin marketplace add hoshimiyacelica/skills
+/plugin install ja-skills@hoshimiyacelica-skills
+```
+
+If the install summary reports `Run /reload-plugins to activate.`, run that command as well. Pull later updates with `/plugin marketplace update hoshimiyacelica-skills`.
+
+### By asking an agent
+
+For agents without plugin support, such as Codex, ask directly.
 
 ```text
 Install japanese-writing-style and ja-zhtw-translation from the hoshimiyacelica/skills repository on GitHub.
